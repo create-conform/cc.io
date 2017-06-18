@@ -1,0 +1,16 @@
+{
+  "name": "cc.io",
+  "version": "0.1.0",
+  "title": "IO Library",
+  "description": "Library for reading and writing data.",
+  "bugs": null,
+  "license": "Apache-2.0",
+  "author": null,
+  "contributors": null,
+  "main": "io.js",
+  "pkxDependencies": [
+    "cc.type.0.1",
+    "cc.string.0.1",
+    "cc.event.0.1"
+  ]
+}
