@@ -1,6 +1,6 @@
 {
   "name": "cc.io",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "title": "IO Library",
   "description": "Library for reading and writing data.",
   "license": "Apache-2.0",

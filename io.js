@@ -130,6 +130,14 @@
                     }, refuse);
                 });
             },
+            copyTo : function (stream) {
+                var own = this;
+                return new Promise(function (resolve, refuse) {
+                    own.read(null, 0).then(function (bytes) {
+                        stream.write(bytes, 0).then(resolve, refuse);
+                    }, refuse);
+                });
+            },
             write : unsupported,
             getMimeType : function () {
                 var own = this;
