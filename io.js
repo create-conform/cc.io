@@ -609,6 +609,7 @@
 
             open : unsupported,
             delete : unsupported,
+            exists : unsupported,
             query : unsupported,
             getBytesUsed : unsupported,
             getBytesAvailable : unsupported,
